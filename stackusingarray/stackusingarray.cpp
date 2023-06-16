@@ -65,4 +65,12 @@ int main() {
 		cout << "\nEnter your choice (1-4):";
 		char ch;
 		cin >> ch;
+		switch (ch) {
+		case '1': {
+			cout << "masukkan element" << endl;
+			int element;
+			cin >> element;
+			s.push(element);
+			break;
+		}
 		
