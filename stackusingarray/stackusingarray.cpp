@@ -20,4 +20,5 @@ public:
 			return 0;
 		}
 
+		top++;   //step 2
 		
